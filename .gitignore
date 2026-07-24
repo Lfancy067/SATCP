@@ -1,0 +1,41 @@
+# SPDX-FileCopyrightText: 2026 Fan Liu
+# SPDX-License-Identifier: MIT
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python environments
+.venv/
+venv/
+env/
+
+# FEniCS and ParaView output
+*.pvd
+*.vtu
+*.pvtu
+*.xdmf
+*.h5
+
+# Generated benchmark output
+output/
+data/
+figures/
+displacement/
+
+# MATLAB temporary and generated files
+*.asv
+*.m~
+slprj/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

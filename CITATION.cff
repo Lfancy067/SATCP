@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2026 Fan Liu
+# SPDX-License-Identifier: MIT
+
+cff-version: 1.2.0
+message: "If you use this software, please cite this software release and the associated manuscript."
+title: "SATCP: Secant–Approximate-Tangent Curvature Predictor"
+type: software
+authors:
+  - family-names: "Liu"
+    given-names: "Fan"
+version: "1.0.0"
+date-released: "2026-07-24"
+abstract: >-
+  MATLAB and legacy FEniCS implementations of the
+  secant–approximate-tangent curvature predictor for arc-length tracing
+  of geometrically nonlinear equilibrium paths, together with two shell
+  benchmark drivers.
+keywords:
+  - "arc-length method"
+  - "path following"
+  - "geometric nonlinearity"
+  - "postbuckling"
+  - "curvature predictor"
+  - "finite element method"
