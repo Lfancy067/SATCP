@@ -5,7 +5,7 @@
 
 This repository contains the source code associated with the manuscript:
 
-> Fan Liu and Q. L. Duan, *A secant–approximate-tangent curvature predictor for arc-length tracing of geometrically nonlinear postbuckling paths*, prepared for **Engineering Structures**.
+> Fan Liu and Qinglin Duan, *A secant–approximate-tangent curvature predictor for arc-length tracing of geometrically nonlinear postbuckling paths*, prepared for **Engineering Structures**.
 
 The released code provides:
 
