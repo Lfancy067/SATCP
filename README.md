@@ -29,6 +29,14 @@ SATCP/
 │   ├── ArcLengthMethod-MIT.txt
 │   ├── LGPL-3.0-or-later.txt
 │   └── GPL-3.0-or-later.txt
+├── results/
+│   ├── README.md
+│   ├── Example6_present.dat
+│   ├── Example7_present_t12_7.dat
+│   ├── Example7_present_t6.35.dat
+│   ├── load_displacement12.7.pdf
+│   ├── load_displacement6.35.pdf
+│   └── semi_cylindrical_shell_load_displacement.pdf
 ├── Example6.py
 ├── Example7.py
 ├── Present_solver.py
@@ -52,7 +60,25 @@ SATCP/
 
 - `solve_arclength_split.m`  
   MATLAB-compatible split corrector required by `main_arclength_Present.m`. It returns the unit reference-load response used by the SATCP approximate-tangent history.
+### results
 
+- `results/Example6_present.dat`  
+  Load–displacement data for the pinched semi-cylindrical shell benchmark.
+
+- `results/semi_cylindrical_shell_load_displacement.pdf`  
+  Load–displacement curve for the pinched semi-cylindrical shell benchmark.
+
+- `results/Example7_present_t12_7.dat`  
+  Load–displacement data for the hinged cylindrical panel with \(t=12.7\).
+
+- `results/load_displacement12.7.pdf`  
+  Load–displacement curve for the hinged cylindrical panel with \(t=12.7\).
+
+- `results/Example7_present_t6.35.dat`  
+  Load–displacement data for the hinged cylindrical panel with \(t=6.35\).
+
+- `results/load_displacement6.35.pdf`  
+  Load–displacement curve for the hinged cylindrical panel with \(t=6.35\).
 ## Legacy FEniCS implementation
 
 ### Requirements
