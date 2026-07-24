@@ -10,6 +10,7 @@ authors:
     given-names: "Fan"
 version: "1.0.0"
 date-released: "2026-07-24"
+repository-code: "https://github.com/Lfancy067/SATCP"
 abstract: >-
   MATLAB and legacy FEniCS implementations of the
   secant–approximate-tangent curvature predictor for arc-length tracing
