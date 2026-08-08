@@ -40,6 +40,7 @@ SATCP/
 ├── Example6.py
 ├── Example7.py
 ├── Present_solver.py
+├── main_arclength_ETP.m
 ├── solve_arclength_split.m
 └── main_arclength_Present.m
 ```
@@ -55,6 +56,9 @@ SATCP/
 - `Example7.py`  
   Hinged cylindrical panel benchmark described in Section 4.7.
 
+- `main_arclength_ETP.m`  
+  MATLAB implementation of ETP intended for use within Chennakesava Kadapa's open-source `ArcLengthMethod` MATLAB framework.
+  
 - `main_arclength_Present.m`  
   MATLAB implementation of SATCP intended for use within Chennakesava Kadapa's open-source `ArcLengthMethod` MATLAB framework.
 
